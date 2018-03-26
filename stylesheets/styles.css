@@ -2,13 +2,18 @@ body {
   background-color: grey;
 }
 
-main.left {
-  display: inline-block;
-  font-family: serif;
+main {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
 
-main.right {
-  display: inline-block;
+.right {
+  width: 40%
+}
+
+.left {
+  width: 60%
 }
 
 .cards {
@@ -26,9 +31,24 @@ main.right {
   text-align: center;
 }
 
+.slider {
+  max-width: 100%;
+}
+
+.buttons button {
+  background-color: inherit;
+  padding: 10px;
+  border: solid 2px white;
+  color: white;
+}
+
 .bio {
   width: 66%;
   text-align: left;
+}
+
+.bio * {
+  margin-left: 10px;
 }
 
 .bio, .blog {
@@ -49,4 +69,13 @@ main.right {
 
 .profile {
   background-color: #f2a13a;
+}
+
+.slider img {
+  max-width: 100%;
+}
+
+main a {
+  text-decoration: none;
+  color: white;
 }

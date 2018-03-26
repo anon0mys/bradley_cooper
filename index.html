@@ -4,65 +4,72 @@
     <meta charset="utf-8">
     <title>Personal Profile</title>
     <link rel="stylesheet" href="./stylesheets/styles.css">
+    <!-- Font Awesome Icons -->
+    <script defer src="https://pro.fontawesome.com/releases/v5.0.8/js/regular.js" integrity="sha384-SIp/+zr0hyfSVIQPkAwB/L1h4fph6T3CmU4mE7IFtGJlgwoCko0Bye/1J0sjyh4v" crossorigin="anonymous"></script>
+    <script defer src="https://pro.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-Ht3fAeBiX/rVmKVyMwONAIIt0aRoPzZgq1FzdRgR9zFo+Kcd8YDwUbFlTItfaYW4" crossorigin="anonymous"></script>
   </head>
   <body>
-    <main class="left">
-      <div class="cards">
-        <div class="bio">
-          <h1>Evan Wheeler</h1>
-          <p>Aspiring back-end engineer, working on css.</p>
-          <p>Take a look at what I am working on.</p>
-          <div class="buttons">
-            <button type="button" name="resume">Resume</button>
-            <button type="button" name="contact">Contact</button>
+    <main>
+      <column class="left">
+        <div class="cards">
+          <div class="bio">
+            <h1>Evan Wheeler</h1>
+            <p>Aspiring back-end engineer, working on css.</p>
+            <p>Take a look at what I am working on.</p>
+            <div class="buttons">
+              <button type="button" name="resume"><i></i>Resume</button>
+              <button type="button" name="contact"><i></i>Contact</button>
+            </div>
+          </div>
+          <div class="card profile">
+            <a href="#">
+              <i class="fal fa-user-circle"></i>
+              <p>Profile</p>
+            </a>
+          </div>
+          <div class="card experience">
+            <a href="#">
+              <img src="" alt="experience">
+              <p>Experienc</p>
+            </a>
+          </div>
+          <div class="card education">
+            <a href="#">
+              <img src="" alt="education">
+              <p>Education</p>
+            </a>
+          </div>
+          <div class="card blog">
+            <a href="#">
+              <img src="" alt="blog">
+              <p>Blog</p>
+            </a>
+          </div>
+          <div class="card social">
+            <a href="#">
+              <img src="" alt="social">
+              <p>Social</p>
+            </a>
+          </div>
+          <div class="card contact">
+            <a href="#">
+              <img src="" alt="contact">
+              <p>Contact</p>
+            </a>
+          </div>
+          <div class="card portfolio">
+            <a href="#">
+              <img src="" alt="portfolio">
+              <p>Portfolio</p>
+            </a>
           </div>
         </div>
-        <div class="card profile">
-          <a href="#">
-            <img src="" alt="profile">
-            <p>Profile</p>
-          </a>
+      </column>
+      <column class="right">
+        <div class="slider">
+          <img src="./images/profile.jpg" alt="headshot">
         </div>
-        <div class="card experience">
-          <a href="#">
-            <img src="" alt="experience">
-            <p>Experienc</p>
-          </a>
-        </div>
-        <div class="card education">
-          <a href="#">
-            <img src="" alt="education">
-            <p>Education</p>
-          </a>
-        </div>
-        <div class="card blog">
-          <a href="#">
-            <img src="" alt="blog">
-            <p>Blog</p>
-          </a>
-        </div>
-        <div class="card social">
-          <a href="#">
-            <img src="" alt="social">
-            <p>Social</p>
-          </a>
-        </div>
-        <div class="card contact">
-          <a href="#">
-            <img src="" alt="contact">
-            <p>Contact</p>
-          </a>
-        </div>
-        <div class="card portfolio">
-          <a href="#">
-            <img src="" alt="portfolio">
-            <p>Portfolio</p>
-          </a>
-        </div>
-      </div>
-    </main>
-    <main class="right">
-      <img src="./images/" alt="headshot">
+      </column>
     </main>
   </body>
 </html>
