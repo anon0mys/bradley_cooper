@@ -1,0 +1,17 @@
+body {
+  background-color: grey;
+}
+
+main.left {
+  display: inline-block;
+}
+
+main.right {
+  display: inline-block;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
