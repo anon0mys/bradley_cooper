@@ -4,6 +4,7 @@ body {
 
 main.left {
   display: inline-block;
+  font-family: serif;
 }
 
 main.right {
@@ -14,4 +15,38 @@ main.right {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 33%;
+  height: 220px;
+  text-align: center;
+}
+
+.bio {
+  width: 66%;
+  text-align: left;
+}
+
+.bio, .blog {
+  background-color: #60b980;
+}
+
+.experience, .contact {
+  background-color: #408abf;
+}
+
+.social, .portfolio {
+  background-color: #e8713b;
+}
+
+.education {
+  background-color: #e06451;
+}
+
+.profile {
+  background-color: #f2a13a;
 }
